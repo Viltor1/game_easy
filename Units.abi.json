@@ -1,0 +1,109 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "getArmor",
+			"inputs": [
+				{"name":"value","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "getDamage",
+			"inputs": [
+				{"name":"value","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "getHealth",
+			"inputs": [
+				{"name":"value","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "death",
+			"inputs": [
+				{"name":"attacker","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "attackUnit",
+			"inputs": [
+				{"name":"addIIO","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getAttacked",
+			"inputs": [
+				{"name":"value","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "sendMoneyAndDestroy",
+			"inputs": [
+				{"name":"_attacker","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "Armor",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"Armor","type":"uint256"}
+			]
+		},
+		{
+			"name": "Damage",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"Damage","type":"uint256"}
+			]
+		},
+		{
+			"name": "Health",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"Health","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"Armor","type":"uint256"},
+		{"name":"Damage","type":"uint256"},
+		{"name":"Health","type":"uint256"}
+	]
+}
